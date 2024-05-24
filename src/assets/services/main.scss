@@ -1,0 +1,35 @@
+@import './variables.scss';
+
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+.block-container {
+	max-width: 1216px;
+	margin: 0 auto;
+	width: 90%;
+}
+.textColor-black {
+	color: $black;
+}
+.textColor-white {
+	color: $white;
+}
+.textColor-blue {
+	color: $accent_1;
+}
+.textColor-body_regular {
+	color: $body_regular;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+	pointer-events: none;
+	opacity: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
